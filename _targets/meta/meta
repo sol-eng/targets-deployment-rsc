@@ -1,0 +1,17 @@
+name|type|data|command|depend|seed|path|time|size|bytes|format|iteration|parent|children|seconds|warnings|error
+set_model|stem|eb350fb648847c4a|b9b811c8b12b3759|438070a27a0ac546|-1148950389|_targets/objects/set_model|0bb46edbf930fe16|f61d5eec182b6cd2|255|rds|vector|||2.699||
+raw_data_url|stem|f292f78330f6e48e|1cf5c2f1574784e5|ef46db3751d8e999|1832844787|https://tidymodels.org/start/models/urchins.csv|||0|url|vector|||2.412||
+raw_data|stem|97b320b8e9a44981|79c0859abdf75b5c|83432410c4361ff7|-979620141|_targets/objects/raw_data|b39a927fc2a70af7|c23f758b3a400cb1|638|rds|vector|||0.847||
+urchins|stem|a8c448a60e76d2ee|e3fbae1477d88c48|3c061c68e328dc66|-1166659261|_targets/objects/urchins|813578ba9d60f436|c91a6b892b3e25c8|681|rds|vector|||0.01||
+fit_model|stem|81e96d6a95c6eee7|00222589836a5323|707346fc29449697|-991444990|_targets/objects/fit_model|b300de38a4cb536f|82bbdb7ad8ca409c|6791|rds|vector|||0.191||
+visualization|stem|454e249b0ce3af65|9919094e95519d99|c15bed7664757f4d|1976114468|_targets/objects/visualization|ebffcb374e563295|a4c6eeaea9629517|63411|rds|vector|||0.012||
+tidy_model|stem|ae4010a6c1235965|7927604e27242317|12eccf159cbac806|-297037418|_targets/objects/tidy_model|9a31550c75ea6e27|91d375b86ccd1383|454|rds|vector|||0.005||
+rmarkdown_report|stem||d0dfcd06b1c64677|5f0a2995fde58eac|649666303||||0|file|vector|||0.055||Scanner error while scanning for the next token at line 3, column 7 found character that cannot start any token at line 3, colu
+set_model|stem|eb350fb648847c4a|b9b811c8b12b3759|438070a27a0ac546|-1148950389|_targets/objects/set_model|0bb46edbf930fe16|f61d5eec182b6cd2|255|rds|vector|||2.699||
+raw_data_url|stem|df67646da876b400|1cf5c2f1574784e5|ef46db3751d8e999|1832844787|https://tidymodels.org/start/models/urchins.csv|||0|url|vector|||2.319||
+raw_data|stem|97b320b8e9a44981|79c0859abdf75b5c|1ef62938c7df7cc9|-979620141|_targets/objects/raw_data|90aae33b2cc2cd2b|c23f758b3a400cb1|638|rds|vector|||0.824||
+urchins|stem|a8c448a60e76d2ee|e3fbae1477d88c48|3c061c68e328dc66|-1166659261|_targets/objects/urchins|813578ba9d60f436|c91a6b892b3e25c8|681|rds|vector|||0.01||
+fit_model|stem|81e96d6a95c6eee7|00222589836a5323|707346fc29449697|-991444990|_targets/objects/fit_model|b300de38a4cb536f|82bbdb7ad8ca409c|6791|rds|vector|||0.191||
+visualization|stem|454e249b0ce3af65|9919094e95519d99|c15bed7664757f4d|1976114468|_targets/objects/visualization|ebffcb374e563295|a4c6eeaea9629517|63411|rds|vector|||0.012||
+tidy_model|stem|ae4010a6c1235965|7927604e27242317|12eccf159cbac806|-297037418|_targets/objects/tidy_model|9a31550c75ea6e27|91d375b86ccd1383|454|rds|vector|||0.005||
+rmarkdown_report|stem|a16116bd1f489633|d0dfcd06b1c64677|5f0a2995fde58eac|649666303|report.html*report.Rmd|c83dbc9a5177aa7b|9fbb88bced56d246|874930|file|vector|||0.83||

@@ -1,0 +1,12 @@
+name: driver
+title: driver
+username: iflores.siaca
+account: iflores.siaca
+server: colorado.rstudio.com
+hostUrl: https://colorado.rstudio.com/rsc/__api__
+appId: 8727
+bundleId: 43765
+url: https://colorado.rstudio.com/rsc/content/8727/
+when: 1614118156.07122
+asMultiple: TRUE
+asStatic: FALSE

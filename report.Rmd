@@ -1,0 +1,18 @@
+---
+title: "RMarkdown Report rendered from `targets`"
+author: "Ian Flores Siaca"
+date: "`r Sys.Date()`"
+---
+
+```{r}
+library(targets)
+```
+
+```{r}
+tar_read(visualization)
+```
+
+```{r}
+tar_load(tidy_model)
+print(tidy_model)
+```

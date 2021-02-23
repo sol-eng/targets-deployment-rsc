@@ -1,0 +1,36 @@
+---
+title: "RMarkdown Report Driving `targets` pipeline"
+author: "Ian Flores Siaca"
+date: "`r Sys.Date()`"
+resource_files:
+- R/connect_helpers.R
+- _targets.R
+- renv.lock
+---
+
+```{r setup, message=FALSE, warning=FALSE}
+library(targets)
+library(visNetwork)
+library(tidymodels)
+library(tidyverse)
+library(connectapi)
+library(rsconnect)
+library(tarchetypes)
+```
+
+```{r set-env, echo=TRUE}
+CONNECT_API_KEY <- Sys.getenv("CONNECT_API_KEY")
+CONNECT_SERVER <- Sys.getenv("CONNECT_SEVER")
+```
+
+```{r glimpse}
+tar_glimpse()
+```
+
+```{r plan}
+tar_visnetwork()
+```
+
+```{r make}
+tar_make()
+```
