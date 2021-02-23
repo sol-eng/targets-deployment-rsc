@@ -46,13 +46,13 @@ list(
   ),
   tarchetypes::tar_render(
     rmarkdown_report,
-    "report.Rmd",
-    output_file = "report.html",
+    "report/report.Rmd",
+    output_file = "report/report.html",
     quiet = TRUE
   ),
   tar_target(
     rendered_report,
-    "report.html",
+    "report/report.html",
     format = "file"
   ),
   tar_target(
