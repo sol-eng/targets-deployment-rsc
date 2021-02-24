@@ -58,6 +58,7 @@ list(
     {
       tar_load(rmarkdown_report)
       file_to_upload <- rmarkdown_report[grepl("*.html", rmarkdown_report)]
-      upload_to_connect(file_to_upload, "targets-rmd-report")}
+      upload_to_connect(file_to_upload, "targets-rmd-report")
+    }
   )
 )
