@@ -20,6 +20,17 @@ library(aws.s3)
 library(qs)
 ```
 
+```{r s3-bucket-setup}
+bucket_name <- Sys.getenv("AWS_BUCKET_NAME", "targets-deployment-bucket")
+
+if (bucket_exists(bucket_name)){
+  print("Bucket already exists")
+} else {
+  print("Creating Bucket")
+  put_bucket(bucket_name)
+}
+```
+
 ```{r glimpse}
 tar_glimpse()
 ```
