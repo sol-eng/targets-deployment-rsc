@@ -65,6 +65,13 @@
       "Repository": "CRAN",
       "Hash": "b203113193e70978a696b2809525649d"
     },
+    "RApiSerialize": {
+      "Package": "RApiSerialize",
+      "Version": "0.1.0",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "c5a68b4db79cfe8502878b3ed2b59853"
+    },
     "RColorBrewer": {
       "Package": "RColorBrewer",
       "Version": "1.1-2",
@@ -78,6 +85,13 @@
       "Source": "Repository",
       "Repository": "RSPM",
       "Hash": "dbb5e436998a7eba5a9d682060533338"
+    },
+    "RcppParallel": {
+      "Package": "RcppParallel",
+      "Version": "5.0.3",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "157a1155dc1bdbb6aba8dad88c9ef460"
     },
     "SQUAREM": {
       "Package": "SQUAREM",
@@ -99,6 +113,20 @@
       "Source": "Repository",
       "Repository": "CRAN",
       "Hash": "50c838a310445e954bc13f26f26a6ecf"
+    },
+    "aws.s3": {
+      "Package": "aws.s3",
+      "Version": "0.3.21",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "a0b873f71741bba67e3bc128d8f09fe3"
+    },
+    "aws.signature": {
+      "Package": "aws.signature",
+      "Version": "0.6.0",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "0006bcef272aad12f78dd5a85fc7f4fc"
     },
     "backports": {
       "Package": "backports",
@@ -728,6 +756,13 @@
       "Repository": "RSPM",
       "Hash": "97def703420c8ab10d8f0e6c72101e02"
     },
+    "qs": {
+      "Package": "qs",
+      "Version": "0.23.6",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "44fef19898d6a2760e9a002732b32227"
+    },
     "readr": {
       "Package": "readr",
       "Version": "1.4.0",
@@ -853,6 +888,13 @@
       "Source": "Repository",
       "Repository": "RSPM",
       "Hash": "ac1eb08941cacd8ff16f0041ca60a3de"
+    },
+    "stringfish": {
+      "Package": "stringfish",
+      "Version": "0.14.2",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "068640b1efcfae4c7e2f5556149624eb"
     },
     "stringi": {
       "Package": "stringi",
