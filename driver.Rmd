@@ -16,11 +16,8 @@ library(tidyverse)
 library(connectapi)
 library(rsconnect)
 library(tarchetypes)
-```
-
-```{r set-env, echo=TRUE}
-CONNECT_API_KEY <- Sys.getenv("CONNECT_API_KEY")
-CONNECT_SERVER <- Sys.getenv("CONNECT_SEVER")
+library(aws.s3)
+library(qs)
 ```
 
 ```{r glimpse}

@@ -1,7 +1,7 @@
 ---
 title: "RMarkdown Report rendered from `targets`"
 author: "Ian Flores Siaca"
-date: "`r Sys.Date()`"
+date: "`r Sys.time()`"
 ---
 
 ```{r}

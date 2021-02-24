@@ -1,7 +1,10 @@
 library(targets)
 options(tidyverse.quiet = TRUE)
 source("R/connect_helpers.R")
-tar_option_set(packages = c("tidymodels", "tidyverse", "connectapi", "tarchetypes"))
+tar_option_set(packages = c("tidymodels", "tidyverse", "connectapi",
+                            "tarchetypes", "aws.s3"),
+               resources = list(bucket = Sys.getenv("AWS_BUCKET_NAME")),
+               format = "aws_qs")
 list(
   tar_target(
     raw_data_url,
@@ -47,16 +50,14 @@ list(
   tarchetypes::tar_render(
     rmarkdown_report,
     "report/report.Rmd",
-    output_file = "report/report.html",
+    output_file = "report.html",
     quiet = TRUE
   ),
   tar_target(
-    rendered_report,
-    "report/report.html",
-    format = "file"
-  ),
-  tar_target(
     upload_report,
-    upload_to_connect(rendered_report, "targets-rmd-report")
+    {
+      tar_load(rmarkdown_report)
+      file_to_upload <- rmarkdown_report[grepl("*.html", rmarkdown_report)]
+      upload_to_connect(file_to_upload, "targets-rmd-report")}
   )
 )
