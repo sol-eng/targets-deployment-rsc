@@ -2,9 +2,7 @@ library(targets)
 options(tidyverse.quiet = TRUE)
 source("R/connect_helpers.R")
 tar_option_set(packages = c("tidymodels", "tidyverse", "connectapi",
-                            "tarchetypes", "aws.s3"),
-               resources = list(bucket = Sys.getenv("AWS_BUCKET_NAME")),
-               format = "aws_qs")
+                            "tarchetypes"))
 list(
   tar_target(
     raw_data_url,
