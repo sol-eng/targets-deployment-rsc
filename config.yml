@@ -1,0 +1,7 @@
+rsconnect:
+  targets:
+     path: '/mnt/shared-data/targets-test/'
+
+default:
+  targets:
+     path: './_targets'

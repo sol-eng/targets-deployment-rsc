@@ -6,6 +6,7 @@ resource_files:
 - R/connect_helpers.R
 - _targets.R
 - renv.lock
+- config.yml
 ---
 
 ```{r setup, message=FALSE, warning=FALSE}
@@ -16,19 +17,14 @@ library(tidyverse)
 library(connectapi)
 library(rsconnect)
 library(tarchetypes)
-library(aws.s3)
-library(qs)
+library(config)
 ```
 
-```{r s3-bucket-setup}
-bucket_name <- Sys.getenv("AWS_BUCKET_NAME", "targets-deployment-bucket")
+```{r cache-setup}
+targets_settings <- config::get('targets')
+store_path <- targets_settings$path
 
-if (bucket_exists(bucket_name)){
-  print("Bucket already exists")
-} else {
-  print("Creating Bucket")
-  put_bucket(bucket_name)
-}
+tar_config_set(store = store_path)
 ```
 
 ```{r glimpse}

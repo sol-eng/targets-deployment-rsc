@@ -1,0 +1,13 @@
+name: driver-targets-doc
+title: driver-targets-doc
+username: iflores.siaca
+account: iflores.siaca
+server: colorado.rstudio.com
+hostUrl: https://colorado.rstudio.com/rsc/__api__
+appId: 9243
+bundleId: 45315
+url: https://colorado.rstudio.com/rsc/content/b26cc52c-0277-4ecf-9e8f-312509b2e767/
+when: 1620861246.56105
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: renv.lock
